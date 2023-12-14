@@ -1,0 +1,62 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.divider {
+    height: 20px;
+    background-color: #FFE66D;
+}
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+.contact-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section form label,
+.contact-section form input,
+.contact-section form textarea,
+.contact-section form button {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-section form button {
+    padding: 10px 20px;
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #E25858;
+}

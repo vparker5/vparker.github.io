@@ -1,0 +1,60 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header, footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.divider {
+    height: 20px;
+    background-color: #4ECDC4;
+} .about-section {
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+}
+.about-section h1 {
+    font-size: 40px;
+}
+.about-section p {
+    font-size: 20px;
+	
+}
+.facebook-icon {
+    font-size: 32px;
+    color: #3b5998;
+    transition: color 0.3s ease;
+}
+.facebook-icon:hover {
+    color: #4267B2;
+}
+.back-to-home {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-to-home:hover {
+    background-color: #555;
+}
